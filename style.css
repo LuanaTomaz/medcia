@@ -1,0 +1,251 @@
+*{box-sizing:border-box} :root{--sand:#ddc19f;--cream:#f0dcc3;--cream-light:#f5e5d2;--tan:#c8a77e;--brown:#72594a;--brown-dark:#594638;--muted:#9b7b60;--white-warm:#f9eee1;--line:#c6a989}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--brown);font-family:Montserrat,Arial,sans-serif;font-size:14px;letter-spacing:.02em}a{color:inherit;text-decoration:none}.hero{height:490px;position:relative;background:linear-gradient(180deg,rgba(239,224,204,.25),rgba(239,224,204,.28)),url("fundo.png") center/cover,var(--sand);border-top:55px solid var(--sand);margin-bottom:0}.hero-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(245,231,214,.38),rgba(208,177,140,.3))}.mini-logo{position:absolute;left:6.5%;top:16px;border:2px solid var(--brown);border-radius:50%;width:30px;height:30px;text-align:center;padding-top:4px;font-size:15px;z-index:1}.hero-content{position:relative;z-index:1;display:flex;align-items:center;flex-direction:column;padding-top:80px}.brand{display:flex;align-items:center;gap:10px;color:var(--brown-dark)}.brand-mark{font-size:64px;line-height:1}.brand-name{font-size:58px;font-weight:700;letter-spacing:-3px;line-height:.9}.brand-name small{display:block;font-size:10px;letter-spacing:0;text-align:center;margin-top:8px;font-weight:600}.pill-button{display:inline-block;background:var(--white-warm);color:var(--brown-dark);border-radius:30px;padding:10px 30px;font-size:11px;font-weight:700;box-shadow:0 2px 8px #72594a18;text-align:center}.hero-content>.pill-button{margin-top:24px;min-width:230px}.service-shortcuts{position:absolute;z-index:2;left:15%;right:15%;bottom:-4px;display:grid;grid-template-columns:repeat(3,1fr);gap:9%;align-items:stretch}.shortcut{background:var(--cream);min-height:165px;padding:16px 16px 18px;border-radius:9px 9px 0 0;color:var(--brown);box-shadow:0 5px 15px #6e57421a}.shortcut-icon{width:37px;height:37px;display:flex;align-items:center;justify-content:center;background:var(--brown);color:var(--cream);border-radius:50%;font-size:25px;font-weight:bold}.shortcut h3{margin:10px 0 9px;font-size:17px}.shortcut p{margin:0;font-size:12px;font-weight:600;line-height:1.5}.section-pad{padding:70px max(6%,calc((100% - 1180px)/2))}.specialties{background:var(--cream);padding-top:85px;padding-bottom:48px}.section-heading span{font-size:12px;color:var(--brown)}.section-heading h2{margin:3px 0 22px;font-size:28px;line-height:1.2;color:#a77f77}.specialty-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.specialty-card{background:#e7cdb0;border:1px solid #d2b494;border-radius:5px;overflow:hidden;padding-bottom:12px;box-shadow:0 3px 8px #775b4410}.photo-slot{display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#d2b18e,#ebd7bf 55%,#c4a27d);color:#7e634d;font-size:12px;font-weight:600;min-height:120px;padding:12px;border:1px dashed #b89570}.specialty-card .photo-slot{min-height:100px;border:0;border-radius:0}.specialty-card h3{font-size:11px;line-height:1.4;margin:10px 10px 8px;min-height:30px}.specialty-card a{display:inline-block;margin:0 10px;background:var(--brown);color:var(--cream-light);border-radius:20px;padding:6px 12px;font-size:9px;font-weight:700}.specialty-card a span{font-size:13px;margin-left:5px}.help-section{background:var(--sand);padding-top:54px;padding-bottom:54px}.help-copy{max-width:1050px;margin:auto;background:var(--cream-light);padding:28px 32px;border-radius:2px}.eyebrow{font-size:9px;letter-spacing:.14em;font-weight:700;color:var(--tan)}.help-copy>h2{font-family:"Playfair Display",serif;text-align:center;font-size:30px;font-weight:500;margin:8px 0;color:#8b654d}.help-copy>h2 em,.clinic-story h2 em,.location-copy h2 em{display:block;font-weight:600}.help-copy>p{text-align:center;font-size:12px;max-width:600px;margin:0 auto 20px;color:#8d7561}.help-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.help-card{background:#f1dfcb;border:1px solid #ddc5a9;border-radius:5px;padding:13px 14px;min-height:100px}.help-card b{display:inline-flex;background:var(--tan);color:var(--cream-light);border-radius:3px;width:21px;height:21px;align-items:center;justify-content:center;font-size:10px}.help-card h3{font-size:12px;margin:7px 0 5px}.help-card p{font-size:10px;line-height:1.5;margin:0;color:#8d7561}.about-clinic{background:var(--sand);padding-top:20px;padding-bottom:50px;display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;align-items:stretch}.clinic-photo{min-height:320px;border:0;border-radius:0}.clinic-story{background:var(--cream-light);padding:28px 30px}.clinic-story h2{font-family:"Playfair Display",serif;font-size:29px;font-weight:500;margin:10px 0 16px}.clinic-story>p{font-size:12px;line-height:1.9;color:#8d7561}.dark-button{display:inline-block;background:#7b7d68;color:#f7e9d8;padding:12px 20px;font-size:10px;font-weight:700;margin:8px 0 20px}.clinic-detail{display:flex;gap:15px;border-top:1px solid var(--line);padding-top:16px;align-items:flex-start}.detail-symbol{font-size:34px;color:var(--tan)}.clinic-detail h3{font-size:12px;margin:3px 0 7px}.clinic-detail p{font-size:10px;line-height:1.6;margin:0;color:#8d7561}.professionals{background:var(--cream);padding-top:24px;padding-bottom:58px;position:relative;overflow:hidden}.professionals:after{content:"✚";position:absolute;right:-25px;top:75px;font-size:270px;line-height:1;color:#cbb294;opacity:.65;pointer-events:none}.centered{text-align:center;margin-bottom:36px}.centered h2{font-size:35px;letter-spacing:.06em;color:var(--brown);margin:0}.centered h2:before{content:"";display:inline-block;width:80px;border-top:2px solid var(--brown);vertical-align:middle;margin-right:20px}.doctor-profile{max-width:850px;margin:auto;display:grid;grid-template-columns:270px 1fr;gap:32px;position:relative;z-index:1}.doctor-visual{display:flex;flex-direction:column;align-items:center;gap:12px}.doctor-photo{width:100%;height:330px;border-radius:80px 80px 55px 55px;overflow:hidden;border:0}.doctor-visual .pill-button{width:85%;padding:9px 12px}.doctor-info h2{font-size:32px;margin:0 0 12px;letter-spacing:.01em}.doctor-tags{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}.doctor-tags span{background:#d7b78f;border-radius:20px;padding:8px 12px;font-size:11px;font-weight:800}.formation-title{font-size:12px;letter-spacing:.08em;color:#a38466;margin:0 0 9px}.credential{border-bottom:1px solid #bca185;padding:10px 0 8px}.credential h3{font-size:13px;margin:0 0 4px}.credential p{font-size:11px;color:#9a7b5e;font-weight:600;margin:0}.testimonials{background:var(--sand);padding-top:35px;padding-bottom:40px}.testimonials-heading{display:flex;align-items:center;gap:12px}.person-icon{width:35px;height:35px;border:2px solid var(--brown);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:19px}.testimonials-heading h2{font-size:23px;margin:0}.intro{font-size:12px;line-height:1.7;font-weight:600;margin:12px 0 28px}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;background:var(--cream-light);padding:18px;border-radius:4px}.review-card{background:#f5e9dc;border:1px solid #e2d1bf;border-radius:9px;padding:15px;box-shadow:0 3px 7px #72594a12}.review-top{display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:11px}.review-top span{color:var(--brown);letter-spacing:1px}.review-card small{display:block;font-size:9px;color:#947d69;margin:5px 0 10px}.review-card p{font-size:10px;line-height:1.6;color:#7d746a;margin:0}.dots{text-align:center;color:var(--brown);letter-spacing:4px;font-size:12px;margin:13px 0}.orange-button{display:block;width:max-content;margin:auto;background:var(--brown);color:#fff4e6;padding:11px 20px;border-radius:8px;font-size:10px;font-weight:800}.location{background:var(--cream);padding-top:55px;padding-bottom:55px}.location-card{max-width:1080px;margin:auto;background:var(--cream-light);display:grid;grid-template-columns:1fr 1fr;gap:0;box-shadow:0 4px 15px #72594a0c}.location-copy{padding:28px 24px 24px}.location-copy h2{font-family:"Playfair Display",serif;font-size:31px;font-weight:500;color:#946b4e;line-height:1.05;margin:0 0 15px}.location-copy>p{font-size:11px;line-height:1.6;max-width:310px;color:#8b7563}.map-wrap{margin-top:18px;height:210px;border-radius:5px;overflow:hidden;border:1px solid #d8c2a8}.map-wrap iframe{width:100%;height:100%;border:0;filter:sepia(.12) saturate(.8)}.location-details{padding:0 24px 24px}.location-photo{height:175px;min-height:175px;border:0;margin-bottom:18px}.location-details>p{display:flex;gap:12px;align-items:flex-start;font-size:13px;font-weight:700;line-height:1.6}.location-details>p span{font-size:11px;font-weight:500}.gold-button{display:inline-block;background:var(--brown);color:#fff9ee;padding:12px 25px;border-radius:25px;font-size:11px;font-weight:700;box-shadow:0 4px 10px #a9855d30}.social-proof{display:block;margin-top:18px;font-size:9px;color:#9d8b7a}footer{background:#c9a982;text-align:center;padding:25px;color:#6c5342}footer>span{font-size:22px;font-weight:800}footer p{font-size:10px;margin:5px}footer a{font-size:10px;text-decoration:underline}@media(min-width:1000px){.hero{height:500px}.service-shortcuts{left:15%;right:15%;gap:9%}.section-pad{padding-left:max(8%,calc((100% - 1180px)/2));padding-right:max(8%,calc((100% - 1180px)/2))}}@media(max-width:700px){.hero{height:520px;border-top-width:30px}.hero-content{padding-top:95px}.brand-mark{font-size:43px}.brand-name{font-size:42px}.brand-name small{font-size:8px}.service-shortcuts{left:5%;right:5%;gap:8px}.shortcut{padding:12px 10px;min-height:160px}.shortcut h3{font-size:13px}.shortcut p{font-size:10px}.section-pad{padding:42px 5%}.specialties{padding-top:70px}.specialty-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.specialty-card .photo-slot{min-height:85px}.help-copy{padding:22px 15px}.help-copy>h2{font-size:25px}.help-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.help-card{padding:10px}.about-clinic{grid-template-columns:1fr;gap:14px}.clinic-photo{min-height:210px}.clinic-story{padding:22px}.centered h2{font-size:27px}.centered h2:before{width:30px;margin-right:10px}.doctor-profile{grid-template-columns:1fr;gap:24px}.doctor-photo{max-width:280px;height:320px}.doctor-info h2{font-size:27px;text-align:center}.doctor-tags{justify-content:center}.formation-title{text-align:center}.professionals:after{font-size:170px;right:-40px;top:300px}.testimonials-heading h2{font-size:18px}.intro{font-size:11px}.review-grid{grid-template-columns:1fr;padding:12px}.review-card{padding:13px}.location-card{grid-template-columns:1fr}.location-copy{padding:22px 18px}.location-copy h2{font-size:27px}.location-details{padding:0 18px 22px}.location-photo{height:150px;min-height:150px}.map-wrap{height:220px}}@media(max-width:390px){.shortcut-icon{width:30px;height:30px;font-size:20px}.shortcut h3{font-size:11px}.shortcut p{font-size:9px}.brand-name{font-size:36px}.help-grid{grid-template-columns:1fr}.doctor-tags span{font-size:9px}}
+
+
+/* Identidade visual, navegação lateral por bolinhas e ícones */
+.mini-logo{display:flex;align-items:center;justify-content:center;padding:0;overflow:hidden;border:0;background:var(--cream-light);box-shadow:0 3px 12px #59463820;width:42px;height:42px}
+.mini-logo img{width:100%;height:100%;object-fit:contain;padding:3px}
+.brand-logo{display:block;width:min(390px,78vw);max-height:150px;object-fit:contain;filter:drop-shadow(0 3px 5px #59463812)}
+.brand{justify-content:center;width:100%}
+.inline-icon{width:17px;height:17px;display:inline-block;vertical-align:-4px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;margin-right:6px}
+.pill-button,.gold-button,.orange-button,.whatsapp-doctor{display:inline-flex;align-items:center;justify-content:center;gap:4px;transition:transform .2s ease,background .2s ease,box-shadow .2s ease}
+.pill-button:hover,.gold-button:hover,.orange-button:hover,.whatsapp-doctor:hover{transform:translateY(-2px);box-shadow:0 7px 18px #72594a22}
+.pill-button{background:var(--cream-light);border:1px solid #d8bea0;color:var(--brown-dark)}
+.gold-button,.orange-button{background:var(--brown);color:var(--white-warm);border:1px solid #594638}
+.orange-button{border-radius:28px;padding:12px 24px;font-size:11px;font-weight:800;letter-spacing:.06em}
+.gold-button{border-radius:28px;padding:12px 24px;font-size:11px;font-weight:700}
+.whatsapp-doctor{background:var(--brown);color:var(--cream-light);border:1px solid var(--brown-dark)}
+/* Navegação vertical em bolinhas, como marcador das seções da página */
+.dot-navigation{position:fixed;z-index:35;right:22px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:13px;padding:15px 10px;border-radius:30px;background:rgba(245,229,210,.9);border:1px solid #c6a989;box-shadow:0 6px 22px #59463820;backdrop-filter:blur(8px)}
+.nav-dot{position:relative;width:11px;height:11px;min-width:11px;border-radius:50%;background:#c6a989;border:2px solid var(--cream-light);box-shadow:0 0 0 1px #b89570;transition:transform .2s,background .2s,box-shadow .2s}
+.nav-dot span{position:absolute;right:23px;top:50%;transform:translate(5px,-50%);white-space:nowrap;background:var(--brown-dark);color:var(--cream-light);padding:7px 11px;border-radius:20px;font-size:10px;font-weight:700;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;box-shadow:0 3px 10px #59463825}
+.nav-dot:hover span,.nav-dot:focus-visible span{opacity:1;transform:translate(0,-50%)}
+.nav-dot:hover,.nav-dot:focus-visible{background:var(--tan);transform:scale(1.2);outline:none}
+.nav-dot.is-active{background:var(--brown-dark);box-shadow:0 0 0 3px #d7b994,0 0 0 5px #8d6c51;transform:scale(1.12)}
+.whatsapp-float{position:fixed;z-index:32;right:25px;bottom:8px;width:58px;height:58px;border-radius:50%;background:var(--brown-dark);border:2px solid var(--cream-light);display:flex;align-items:center;justify-content:center;box-shadow:0 5px 18px #59463838;transition:transform .2s,box-shadow .2s}
+.whatsapp-float:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 8px 22px #59463850;background:#72594a}
+.whatsapp-float svg{width:31px;height:31px;fill:none;stroke:var(--cream-light);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.doctor-carousel{position:relative;max-width:1000px;margin:0 auto;display:flex;align-items:center;gap:14px;z-index:1}
+.doctor-viewport{overflow:hidden;width:100%;min-width:0}
+.doctor-track{display:flex;align-items:stretch;transition:transform .45s ease;will-change:transform}
+.doctor-slide{flex:0 0 100%;width:100%;padding:4px 8px}
+.doctor-slide .doctor-profile{max-width:850px;min-height:370px}
+.carousel-arrow{flex:0 0 44px;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:var(--cream-light);color:var(--brown-dark);font-size:31px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px #72594a18;transition:background .2s,transform .2s}
+.carousel-arrow:hover{background:var(--sand);transform:scale(1.06)}
+.carousel-arrow:focus-visible{outline:3px solid var(--tan);outline-offset:3px}
+.carousel-status{text-align:center;font-size:11px;font-weight:700;color:var(--muted);margin-top:20px}
+@media(max-width:700px){.brand-logo{width:min(310px,76vw);max-height:120px}.mini-logo{left:5%;top:12px;width:36px;height:36px}.dot-navigation{right:10px;gap:12px;padding:12px 8px}.nav-dot{width:9px;height:9px;min-width:9px}.nav-dot span{right:20px;font-size:9px}.whatsapp-float{width:52px;height:52px;right:14px;bottom:8px}.doctor-carousel{gap:5px}.carousel-arrow{flex-basis:35px;width:35px;height:35px;font-size:26px}.doctor-slide{padding:4px 3px}.doctor-slide .doctor-profile{grid-template-columns:1fr;gap:20px}.doctor-slide .doctor-photo{max-width:280px;height:290px}.doctor-slide .doctor-info h2{font-size:25px;text-align:center}.doctor-slide .doctor-tags{justify-content:center}.doctor-slide .formation-title{text-align:center}.doctor-slide .credential{max-width:100%}.professionals{padding-left:3%;padding-right:3%}}
+@media(max-width:390px){.dot-navigation{right:6px;padding:10px 7px;gap:11px}.nav-dot span{display:none}}
+@media(prefers-reduced-motion:reduce){.doctor-track,.nav-dot,.nav-dot span{transition:none}html{scroll-behavior:auto}}
+
+
+/* =========================================================
+   CARROSSEL DE AVALIAÇÕES — avanço manual e automático
+   ========================================================= */
+.review-viewport { overflow: hidden; width: 100%; }
+.review-grid { display: flex; gap: 14px; padding: 18px; background: var(--cream-light); border-radius: 4px; transition: transform .45s ease; }
+.review-card { flex: 0 0 calc((100% - 28px) / 3); min-width: 0; }
+.review-top span { color: var(--brown); }
+.review-controls { display: flex; justify-content: center; align-items: center; gap: 18px; margin: 14px 0; color: var(--brown-dark); }
+.review-arrow { width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; background: var(--cream-light); color: var(--brown-dark); font-size: 25px; line-height: 1; cursor: pointer; }
+.review-arrow:hover { background: var(--sand); }
+.review-status { font-size: 10px; font-weight: 700; }
+/* WhatsApp fica abaixo da área de conteúdo para não cobrir os cards. */
+.whatsapp-float { bottom: 8px; }
+@media (max-width: 700px) { .review-grid { padding: 12px; } .review-card { flex-basis: 100%; } }
+/* Respeita a preferência do visitante por movimento reduzido. */
+@media (prefers-reduced-motion: reduce) { .review-grid { transition: none; } }
+
+
+/* Fotos reais da equipe: preenchem o espaço sem distorcer a imagem. */
+.doctor-photo { background: var(--sand); }
+.doctor-photo img { display:block; width:100%; height:100%; object-fit:cover; object-position:center top; }
+/* Avaliações sem o bloco bege externo; somente cada cartão mantém seu estilo. */
+.review-grid { padding: 0; background: transparent; border-radius: 0; }
+@media (max-width:700px) { .review-grid { padding: 0; } }
+
+
+/* Serviços em uma única seção: "Como a MedCia pode te ajudar?" + especialidades */
+.services-combined{background:var(--cream);padding-top:76px;padding-bottom:68px;scroll-margin-top:20px}
+.services-intro{max-width:780px;margin:0 auto 36px;text-align:center}
+.services-intro h2{font-family:"Playfair Display",serif;font-size:clamp(28px,4vw,40px);font-weight:500;color:var(--brown-dark);margin:10px 0 12px}
+.services-intro>p{max-width:660px;margin:0 auto;color:var(--muted);font-size:13px;line-height:1.85}
+.services-subheading{text-align:center;margin:0 auto 24px}
+.services-subheading h3{font-family:"Playfair Display",serif;font-size:29px;font-weight:500;color:var(--brown);margin:6px 0 0}
+.services-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.service-card{display:flex;flex-direction:column;align-items:flex-start;background:var(--cream-light);border:1px solid #d4b995;border-radius:12px;padding:22px 20px 20px;min-height:225px;box-shadow:0 5px 15px #72594a0d;transition:transform .2s,box-shadow .2s}
+.service-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px #72594a18}
+.service-card .service-icon{display:flex;align-items:center;justify-content:center;width:57px;height:57px;border-radius:16px;background:#e5cfb1;color:var(--brown-dark);margin-bottom:14px}
+.service-icon svg,.shortcut-icon svg,.tribute-ornament svg{width:37px;height:37px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.shortcut-icon svg{width:27px;height:27px;stroke:var(--cream-light);stroke-width:1.7}
+.service-card h3{font-size:14px;line-height:1.4;margin:0 0 8px;color:var(--brown-dark);min-height:unset}
+.service-card p{font-size:11px;line-height:1.7;margin:0;color:#8d7561}
+.doctor-bio{font-size:12px;line-height:1.8;color:#8d7561;margin:0 0 14px}
+.hero-booking-moved{display:flex;width:max-content;max-width:100%;margin:28px auto 0}
+.tribute-section{background:var(--sand);padding-top:25px;padding-bottom:65px}
+.tribute-card{max-width:1000px;margin:0 auto;text-align:center;padding:36px clamp(20px,5vw,60px);background:var(--cream-light);border:1px solid #c9ad8b;border-radius:4px}
+.tribute-ornament{width:62px;height:62px;display:flex;align-items:center;justify-content:center;margin:0 auto 15px;color:var(--tan);border:1px solid #d4b995;border-radius:50%}
+.tribute-ornament svg{width:36px;height:36px}
+.tribute-card h2{font-family:"Playfair Display",serif;font-weight:500;font-size:clamp(25px,3vw,34px);line-height:1.25;color:var(--brown-dark);margin:8px 0 18px}
+.tribute-card p{max-width:760px;margin:0 auto 12px;font-size:12px;line-height:1.9;color:#8d7561}
+.tribute-card .tribute-signature{margin-top:20px;font-family:"Playfair Display",serif;font-style:italic;font-size:16px;color:var(--brown)}
+.insurance-section{background:var(--cream);padding-top:50px;padding-bottom:50px}
+.insurance-inner{max-width:1000px;margin:auto;text-align:center;padding:32px clamp(20px,5vw,55px);background:var(--cream-light);border:1px solid #d4b995}
+.insurance-inner h2{font-family:"Playfair Display",serif;font-size:clamp(25px,3vw,32px);font-weight:500;color:var(--brown-dark);margin:9px 0 12px}
+.insurance-inner p{max-width:700px;margin:0 auto 22px;color:var(--muted);font-size:12px;line-height:1.8}
+@media(max-width:700px){
+ .services-combined{padding-top:60px;padding-bottom:45px}
+ .services-intro{margin-bottom:28px}
+ .services-subheading h3{font-size:25px}
+ .services-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .service-card{padding:15px 13px;min-height:210px}
+ .service-card .service-icon{width:48px;height:48px;border-radius:13px}
+ .service-icon svg{width:31px;height:31px}
+ .service-card h3{font-size:12px}
+ .service-card p{font-size:10px}
+ .tribute-card{padding:28px 18px}
+ .insurance-inner{padding:26px 18px}
+}
+@media(max-width:420px){.services-grid{grid-template-columns:1fr}.service-card{min-height:unset}}
+
+
+/* Ajustes solicitados: contato após serviços e cartões de convênios. */
+.services-contact{display:flex;justify-content:center;margin:28px auto 0;text-align:center}.services-contact .gold-button{font-size:12px;padding:14px 28px}.insurance-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 auto 24px;max-width:850px}.insurance-card{min-height:96px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:15px 10px;background:#f1dfcb;border:1px solid #d7b995;border-radius:12px;color:var(--brown-dark);box-shadow:0 5px 14px #72594a0b}.insurance-mark{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:#d7b78f;color:#fff9ee;font-size:12px;font-weight:800;letter-spacing:.02em}.insurance-card strong{font-size:12px;line-height:1.4;text-align:center}@media(max-width:700px){.insurance-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.insurance-card{min-height:88px;padding:12px 8px}.insurance-card strong{font-size:11px}}
+
+/* Marcas dos convênios em formato de logotipo tipográfico */
+.insurance-logo{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:42px;max-width:100%;font-size:17px;font-weight:800;line-height:1.05;letter-spacing:-.03em;text-align:center}
+.insurance-logo small{font-size:11px;letter-spacing:.02em;font-weight:700;margin-top:3px}
+.insurance-medvprev{color:#8b3d56;font-style:italic}
+.insurance-medsaude{color:#426e6a}
+.insurance-bradesco{color:#b51e32}
+.insurance-sulamerica{color:#347d72}
+.tribute-subtitle{font-weight:700;color:var(--brown-dark);margin-top:-6px}
+
+/* Ajustes solicitados: logo MedCia maior e botão abaixo do cartão Procedimentos */
+.brand-logo{width:min(520px,88vw);max-height:190px}
+@media(max-width:700px){.brand-logo{width:min(420px,90vw);max-height:155px}}
+.shortcut{position:relative}
+.shortcut-whatsapp{display:flex!important;width:100%;margin:14px 0 0!important;padding:10px 12px!important;font-size:10px!important;background:var(--brown)!important;color:var(--cream-light)!important}
+
+.insurance-logo-img{display:block;width:100%;max-width:220px;height:76px;object-fit:contain;margin:0 auto 10px}
+.insurance-card{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.insurance-card strong{text-align:center}
+
+/* Correção pontual dos atalhos: WhatsApp somente dentro de Procedimentos */
+.service-shortcuts{gap:9%;align-items:stretch}
+.shortcut{display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.shortcut-procedures .shortcut-whatsapp{display:inline-flex;align-self:flex-start;margin-top:14px;padding:10px 16px;text-decoration:none}
+.shortcut:not(.shortcut-procedures) .shortcut-whatsapp{display:none!important}
+@media(max-width:700px){.service-shortcuts{left:5%;right:5%;gap:10px}.shortcut{padding:12px 10px;min-height:175px}.shortcut-procedures .shortcut-whatsapp{font-size:10px;padding:8px 10px}}
+
+/* Galeria com as fotos reais da clínica fornecidas no material */
+.clinic-gallery{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:10px;min-height:360px;overflow:hidden}
+.clinic-gallery img{display:block;width:100%;height:100%;min-height:170px;object-fit:cover;border-radius:5px}
+.clinic-gallery img:first-child{grid-row:1 / span 2;min-height:360px}
+.tribute-lead{font-family:"Playfair Display",serif;font-size:20px;font-weight:500;color:var(--brown);margin:12px 0}
+.tribute-card h3:not(.tribute-lead){font-family:"Playfair Display",serif;font-size:18px;font-weight:500;color:var(--brown);margin:22px 0 8px}
+@media(max-width:700px){.clinic-gallery{min-height:260px;grid-template-rows:1fr 1fr}.clinic-gallery img:first-child{min-height:260px}}
+
+
+/* Galeria da clínica: duas fotos proporcionais, sem agrupamento de três imagens. */
+.clinic-gallery{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  grid-template-rows: minmax(260px, 1fr);
+  gap:14px;
+  min-height:300px;
+  align-items:stretch;
+}
+.clinic-gallery img{
+  display:block;
+  width:100%;
+  height:100%;
+  min-height:260px;
+  object-fit:cover;
+  border:0;
+  border-radius:8px;
+}
+.clinic-gallery img:first-child{grid-row:auto;min-height:260px}
+.location-photo{
+  display:block;
+  width:100%;
+  height:175px;
+  min-height:175px;
+  object-fit:cover;
+  border:0;
+  border-radius:5px;
+  margin-bottom:18px;
+}
+.service-card .service-icon svg{width:34px;height:34px}
+@media(max-width:700px){
+  .clinic-gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:190px;min-height:190px;gap:9px}
+  .clinic-gallery img,.clinic-gallery img:first-child{height:190px;min-height:190px}
+  .location-photo{height:150px;min-height:150px}
+}
+@media(max-width:420px){
+  .clinic-gallery{grid-template-rows:150px}
+  .clinic-gallery img,.clinic-gallery img:first-child{height:150px;min-height:150px}
+}
+
+
+/* Ajustes finais de navegação e enquadramento das fotos da clínica */
+.clinic-gallery{
+  min-height:0;
+  height:auto;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  grid-template-rows:auto;
+  align-items:center;
+}
+.clinic-gallery img,
+.clinic-gallery img:first-child{
+  width:100%;
+  height:auto;
+  min-height:0;
+  max-height:390px;
+  aspect-ratio:3 / 2;
+  object-fit:contain;
+  background:var(--cream-light);
+}
+.location-photo{
+  width:100%;
+  height:auto;
+  min-height:0;
+  max-height:300px;
+  aspect-ratio:3 / 2;
+  object-fit:contain;
+  background:var(--cream-light);
+}
+@media(max-width:700px){
+  .clinic-gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto;min-height:0}
+  .clinic-gallery img,.clinic-gallery img:first-child{height:auto;min-height:0;max-height:240px;aspect-ratio:3 / 2;object-fit:contain}
+  .location-photo{height:auto;min-height:0;max-height:240px;aspect-ratio:3 / 2;object-fit:contain}
+}
+
+/* Ajustes solicitados: fotos do Sobre nós empilhadas e feedbacks sem caracteres escapados. */
+.clinic-gallery{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  min-height:0;
+  height:auto;
+  align-items:stretch;
+}
+.clinic-gallery img,
+.clinic-gallery img:first-child{
+  display:block;
+  width:100%;
+  height:auto;
+  min-height:0;
+  max-height:420px;
+  aspect-ratio:3 / 2;
+  object-fit:cover;
+  object-position:center;
+  background:transparent;
+  border-radius:8px;
+}
+@media(max-width:700px){
+  .clinic-gallery img,
+  .clinic-gallery img:first-child{
+    max-height:300px;
+    aspect-ratio:3 / 2;
+  }
+}
